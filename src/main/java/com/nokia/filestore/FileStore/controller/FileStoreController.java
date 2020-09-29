@@ -28,7 +28,7 @@ public class FileStoreController {
 	private FileSaveService fileSaveService;
 	
 	
-	
+/*Stroring the file in data base*/	
 	@PostMapping("/store")
 	public String storeFile(@RequestParam("file") MultipartFile file) throws IOException
 	{
