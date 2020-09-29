@@ -19,6 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.nokia.filestore.FileStore.entity.Files;
 import com.nokia.filestore.FileStore.service.FileSaveService;
 
+/* comments added in the controller*/
 @RestController
 @CrossOrigin("*")
 public class FileStoreController {
